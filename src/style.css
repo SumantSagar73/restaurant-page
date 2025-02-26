@@ -1,0 +1,33 @@
+body{
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  background-color: rgb(196, 213, 213);
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+button{
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 2px 2px 2px darkblue;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+div#content{
+  max-width: fit-content;
+  margin: auto;
+  line-height: 1.5;
+
+}
+
+button:hover{
+  background-color: lightgray;
+}

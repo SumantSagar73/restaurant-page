@@ -17,6 +17,14 @@ module.exports = {
     port: 8000, // You can change this if needed
     open: true, // Auto-opens browser on startup
   },
+  module: {
+    rules: [
+      {
+        test: /\.css$/, // Match CSS files
+        use: ["style-loader", "css-loader"], // Loaders to process CSS
+      },
+    ],
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/template.html",
